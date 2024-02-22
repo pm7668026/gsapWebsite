@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Epsoide 04</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#page1{
+    height: 100%;
+    width: 100%;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin: 0 3%;
+    border-bottom: 2px solid white;
+}
+
+#navbar h1{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+#navbar .nav-part2 {
+    display: flex;
+    gap: 30px;
+}
+
+#navbar h2{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.container{
+    /* background-color: blue; */
+    width: 100%;
+    height: 80%;
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .box1{
+    width: 50%;
+    /* background-color: red; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2% 3%;
+}
+
+.container .box2{
+    width: 50%;
+    /* background-color: yellow; */
+    height: 100%;
+    padding: 2% 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.container .box1 h1{
+    font-size: 110px;
+    line-height: 110px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .box1 span img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: -40px;
+}
+
+.container .box1 span img:nth-child(1){
+    margin-left: 50px;
+}
+
+.container .box2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+
+#page2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page2 .sub{
+    width: 350px;
+    margin: 0 50px;
+    border: 2px solid white;
+    padding: 2%;
+    border-radius: 12px;
+}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+   <div id="page1">
+     <div id="navbar">
+        <div class="nav-part1">
+            <h1>Coucher</h1>
+        </div>
+        <div class="nav-part2">
+            <h2>Services</h2>
+            <h2>About Us</h2>
+            <h2>Cases</h2>
+        </div>
+        <div class="nav-part3">
+            <h2>Sign Up</h2>
+        </div>
+     </div>
+
+     <div class="container">
+        <div class="box1">
+            <h1>Unlimited</h1>
+            <h1>Pretentious</h1>
+            <h1><span>
+                
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></span>
+                
+                
+                Ideas</h1>
+        </div>
+        <div class="box2">
+            <img src="https://images.unsplash.com/photo-1567468219153-4b1dea5227ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8" alt="">
+        </div>
+    </div>
+   </div>
+   <div id="page2">
+        <div class="sub-box1 sub">
+            <h1>Creative Studio</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae temporibus facere sit quo id necessitatibus, vitae exercitationem omnis deleniti quos odit accusamus nemo aperiam laborum, illo enim saepe quis sequi?</p>
+        </div>
+        <div class="sub-box2 sub">
+            <h1>Creative Studio</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae temporibus facere sit quo id necessitatibus, vitae exercitationem omnis deleniti quos odit accusamus nemo aperiam laborum, illo enim saepe quis sequi?</p>
+        </div>
+        <div class="sub-box3 sub">
+            <h1>Creative Studio</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae temporibus facere sit quo id necessitatibus, vitae exercitationem omnis deleniti quos odit accusamus nemo aperiam laborum, illo enim saepe quis sequi?</p>
+        </div>
+   </div>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    
+   <script>
+    var timeManager = gsap.timeline();
+
+timeManager.from("#navbar",{
+    
+    y: -200,
+    opacity:0,
+    delay:0.5,
+    duration:0.5
+});
+
+timeManager.from("#navbar .nav-part1 h1",{
+    
+    y: -200,
+    opacity:0,
+    duration:0.5
+});
+
+timeManager.from("#navbar .nav-part2 h2",{
+    
+    y: -200,
+    opacity:0,
+    stagger:0.3,
+    duration:0.5
+});
+
+timeManager.from("#navbar .nav-part3 h2",{
+    y: -200,
+    opacity:0,
+    stagger:0.3,
+    duration:0.5
+});
+
+timeManager.from(".container .box1 h1",{
+    
+    x: -100,
+    opacity:0,
+    stagger:0.3,
+    duration:0.5
+});
+
+timeManager.from(".container .box2 img",{
+    
+    y: 100,
+    opacity:0,
+    stagger:0.3,
+    duration:0.5
+});
+
+gsap.from("#page2 .sub",{
+    
+    scale:0,
+    opacity:0,
+    duration:1,
+    stagger:0.3,
+    scrollTrigger:{
+        trigger:"#page2 .sub",
+        scroller:"body",
+        start:"top 60%"
+    }
+});
+   </script>
+</body>
+</html>
